@@ -67,7 +67,9 @@ Across multiple runs, **The Nihilist** consistently proved to be the most "stubb
 1. **Mathematical Entrenchment:** Because the Nihilist begins at an extreme vertex of the 5D hypercube, the distance to other agents often exceeds the `RESISTANCE_THRESHOLD`. This triggers a 50% reduction in their learning rate, simulating the difficulty of persuading someone with deeply entrenched, skeptical views.
 2. **Real-World Parallel:** This mirrors the psychological "Asymmetry of Persuasion." While optimistic or teleological frameworks require constant validation of meaning, a nihilistic framework is defensive; it treats chaos not as a challenge to be overcome, but as a confirmation of its baseline premise. In the Agora, as in life, it is mathematically and rhetorically easier to deconstruct meaning than to construct it.
 
-
-
 ![Ideological Convergence Plot](agora_visualization_pca.png)
+
+## Development Methodology
+- This project was developed using an iterative AI-human pair programming approach. While Generative AI assisted in streamlining boilerplate code and refining asynchronous patterns, the core mathematical architecture—including the vector update logic, Euclidean distance constraints, and PCA integration—was manually designed and verified to ensure rigorous data analysis.
+
 

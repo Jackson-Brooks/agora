@@ -70,6 +70,6 @@ Across multiple runs, **The Nihilist** consistently proved to be the most "stubb
 ![Ideological Convergence Plot](agora_visualization_pca.png)
 
 ## Development Methodology
-- This project was developed using an iterative AI-human pair programming approach. While Generative AI assisted in streamlining boilerplate code and refining asynchronous patterns, the core mathematical architecture—including the vector update logic, Euclidean distance constraints, and PCA integration—was manually designed and verified to ensure rigorous data analysis.
+- This project was developed using an iterative AI-human pair programming approach. While Generative AI assisted in streamlining boilerplate code and refining asynchronous patterns, the core mathematical architecture, including the vector update logic, Euclidean distance constraints, and PCA integration, was manually designed and verified to ensure rigorous data analysis.
 
 

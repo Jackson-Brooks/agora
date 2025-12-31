@@ -42,4 +42,16 @@ $$V_{new} = V_{current} + (\eta \cdot P \cdot R) \cdot (V_{target} - V_{current}
    git clone [https://github.com/Jackson-Brooks/agora.git](https://github.com/Jackson-Brooks/agora.git)
    cd agora
    ```
-2. 
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Create a .env file:
+   ```bash
+   GOOGLE_API_KEY=your_key
+   ```
+4. Run Simulation:
+   ```bash
+   python existential_agora.py
+   ```
+   

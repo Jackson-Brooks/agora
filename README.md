@@ -1,7 +1,3 @@
-# agora
-An asynchronous multi-agent simulation that models philosophical convergence in a 5D vector space using Gemini-3-Flash. Features real-time ideological drift tracking and high-dimensional visualization via PCA.
-
-
 # The Existential Agora: Multi-Agent Philosophical Convergence
 
 An asynchronous multi-agent simulation that models ideological drift and philosophical convergence within a 5D vector space. Using the Gemini-3-Flash API, autonomous agents engage in debates on the nature of meaning, updating their core beliefs based on the mathematical principles of linear interpolation and resistance-based entrenchment.
@@ -26,7 +22,7 @@ $$V_{new} = V_{current} + (\eta \cdot P \cdot R) \cdot (V_{target} - V_{current}
 
 ### Variables:
 * **$V$**: The 5D Philosophical Vector.
-* **$\eta$ (eta)**: The **Learning Rate**, defining the base step size of any shift.
+* **$\eta$**: The **Learning Rate**, defining the base step size of any shift.
 * **$P$**: The **Persuasion Score** ($0.0$ to $1.0$), determined by the LLM's evaluation of the opponent's logic.
 * **$R$**: The **Resistance Factor**. This introduces non-linear damping; if the Euclidean distance between two agents exceeds a threshold, the influence is halved to simulate ideological entrenchment.
 
@@ -34,7 +30,7 @@ $$V_{new} = V_{current} + (\eta \cdot P \cdot R) \cdot (V_{target} - V_{current}
 
 ---
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 * Python 3.9+
@@ -45,3 +41,5 @@ $$V_{new} = V_{current} + (\eta \cdot P \cdot R) \cdot (V_{target} - V_{current}
    ```bash
    git clone [https://github.com/Jackson-Brooks/agora.git](https://github.com/Jackson-Brooks/agora.git)
    cd agora
+   ```
+2. 

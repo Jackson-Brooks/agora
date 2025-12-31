@@ -6,19 +6,19 @@ An asynchronous multi-agent simulation that models philosophical convergence in 
 
 An asynchronous multi-agent simulation that models ideological drift and philosophical convergence within a 5D vector space. Using the Gemini-3-Flash API, autonomous agents engage in debates on the nature of meaning, updating their core beliefs based on the mathematical principles of linear interpolation and resistance-based entrenchment.
 
-## 🚀 Project Overview
+## Project Overview
 
 The simulation initializes five NPCs with distinct philosophical profiles (Stoic, Nihilist, Absurdist, Idealist, and Existentialist). Each profile is mapped to a 5D vector within a unit hypercube. Through asynchronous discourse, the system tracks how these agents influence one another, ultimately visualizing the "Social Entropy" of the group using Principal Component Analysis (PCA).
 
 ### Key Features
 - **Asynchronous Orchestration:** High-concurrency environment built with `asyncio`, utilizing mutex locks to ensure thread-safe file I/O and plotting.
-- **High-Dimensional Modeling:** Maps abstract reasoning to a 5D Hilbert-style space representing Optimism, Agency, Objectivity, Sociality, and Temporality.
+- **High-Dimensional Modeling:** Maps abstract reasoning to a 5D space representing Optimism, Agency, Objectivity, Sociality, and Temporality.
 - **PCA Visualization:** Reduces 5D data to a 2D projection, capturing ~93% of global variance to demonstrate true ideological convergence.
 - **Mathematical Update Formula:** Implements custom belief-shift logic with a non-linear resistance factor based on Euclidean distance.
 
 ---
 
-## 🧠 Mathematical Intuition
+## Mathematical Intuition
 
 The core of the simulation is the **Vector Update Formula**. After each debate, an NPC’s belief vector $V$ is updated toward the opponent's vector $V_{target}$ using weighted linear interpolation:
 
@@ -43,5 +43,5 @@ $$V_{new} = V_{current} + (\eta \cdot P \cdot R) \cdot (V_{target} - V_{current}
 ### Getting Started
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/yourusername/existential-agora.git](https://github.com/yourusername/existential-agora.git)
-   cd existential-agora
+   git clone [https://github.com/Jackson-Brooks/agora.git](https://github.com/Jackson-Brooks/agora.git)
+   cd agora

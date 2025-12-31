@@ -1,0 +1,5 @@
+google-generativeai
+numpy
+matplotlib
+python-dotenv
+scikit-learn
